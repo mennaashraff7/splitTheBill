@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.bill{
+    margin: 15px 0;
+    float: left;
+    margin-right: 20px;
+    border: 3px solid brown; 
+}
+input{
+    width: 50%;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 1.5em;
+}
+.btn-add{
+    border: 1px;
+    border-radius: 50%;
+    padding: 8px 10px;
+    color: white;
+    background-color: brown;
+}
+h1{
+    color: brown;
+    margin-top: 15px;
+    text-align: center;
+}
+label{
+    color: gray;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: brown;
+    border-radius: 1.5em;
+    margin: 5px 0;
+}
