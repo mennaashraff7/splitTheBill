@@ -3,27 +3,77 @@
     padding: 0;
     font-family: sans-serif;
 }
-
+body{
+    background-image: url("menna.jpg");
+       -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
 .container{
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
 }
+
 .bill{
     margin: 15px 0;
     float: left;
     margin-right: 20px;
     border: 3px solid brown; 
+    width: 500px;
+    border-radius: 1.5em;
+   
+}
+.service{
+    margin: 15px 0;
+    float: none;
+    margin-right: 35px; 
+    width: 500px;
+    clear: both;
+    padding: 20px 10px;
+    width: 100%;
+    
+}
+.taxService{
+    padding:10px 10px;
+    background-color: brown;
+    border-radius: 1.5em;
+    width:120px;
+    margin-left: 30px;
+   
+}
+label{
+    margin-left: 20px;
+}
+.box{
+    overflow: hidden;
+}
+.inputs{
+  float: left;
+  width: 50%;
 }
 input{
-    width: 50%;
+    
+   
     padding: 5px;
-    margin: 5px 0;
+    margin: 5px 5px;
     border-radius: 1.5em;
 }
+div.sumBox{
+    float: right;
+    width:  30%;
+    margin: 0 30px;
+    padding:10px 5px;
+    border: 3px dashed brown;
+    min-height:60px;
+    max-height:200px;
+}
+
 .btn-add{
     border: 1px;
     border-radius: 50%;
     padding: 8px 10px;
+    margin:2px 0 2px 25px;
     color: white;
     background-color: brown;
 }
@@ -39,5 +89,72 @@ label{
     padding: 5px 10px;
     background-color: brown;
     border-radius: 1.5em;
-    margin: 5px 0;
+    margin: 5px 5px;
 }
+
+@media screen and (max-width:650px) {
+    .container{
+        width: 90%;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    .bill{
+    margin: 10px 10px;
+
+    width: 90%;
+    overflow: hidden;
+    
+   
+}
+    .inputs{float: none;
+        
+        width: 100%;
+        padding: 0;
+}
+    div.sumBox{
+        
+        margin: 8px 10px 0 10px;
+       
+float: none;
+    width: 60%;
+    
+}
+.taxService{
+    
+    width:auto;
+    
+   
+}
+    .btn{
+        margin-top:10px;
+        
+    
+}
+@media screen and (min-width:370px) and (max-width:664px) {
+    .container{
+        width: 90%;
+    }
+    .service input{
+        margin-right:1000px;
+    } 
+    
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
